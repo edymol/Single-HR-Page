@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <title>HR Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="nav-wrapper">
+        <nav>
+
+            <ul class="nav-list">
+                <img src="img/icon2.png" alt="" id="icon" alt="">
+                <li class="nav-item"><a href="index.html">Account</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="employees">
+        <h2>Employees</h2>
+        <div class="employee-list">
+            <li>
+                <div class="employee-card" id="employee1">
+                    <img src="img/me.jpg" alt="" class="user-img" alt="">
+                    <span>
+
+                        <div class="employment-details" id="employee1-details">
+                            <span class="name-format">Gabriel</span>
+                            <span class="name-format">Abraham</span>
+                            <br>
+                            <span>Developer</span>
+                            <br>
+                            <br>
+                            <span>Tech Department</span>
+                            <br>
+                            <br>
+                            <span>gabriel@hrpage.com</span>
+                            <br>
+                            <span>$50000</span>
+                            
+                        </div>
+
+                    </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="employee-card" id="employee1">
+                    <img src="img/hr.jpg" alt="" class="user-img" alt="">
+                    <span>
+
+                        <div class="employment-details" id="employee1-details">
+                            <span class="name-format">Ashley</span>
+                            <span class="name-format">Torret</span>
+                            <br>
+                            <span>Head of HR</span>
+                            <br>
+                            <br>
+                            <span>HR Department</span>
+                            <br>
+                            <br>
+                            <span>ashley@hrpage.com</span>
+                            <br>
+                            <span>$35000</span>
+                            
+                        </div>
+
+                    </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="employee-card" id="employee1">
+                    <img src="img/supervisor.jpg" alt="" class="user-img" alt="">
+                    <span>
+
+                        <div class="employment-details" id="employee1-details">
+                            <span class="name-format">Hammed</span>
+                            <span class="name-format">Mohammed</span>
+                            <br>
+                            <span>Head of Transport</span>
+                            <br>
+                            <br>
+                            <span>Transport Department</span>
+                            <br>
+                            <br>
+                            <span>hammed@hrpage.com</span>
+                            <br>
+                            <span>$40000</span>
+                            
+                        </div>
+
+                    </span>
+                </div>
+            </li>
+            
+            <li>
+                <div class="employee-card" id="employee1">
+                    <img src="img/logistics.jpg" alt="" class="user-img" alt="">
+                    <span>
+
+                        <div class="employment-details" id="employee1-details">
+                            <span class="name-format">Sandra</span>
+                            <span class="name-format">Bulock</span>
+                            <br>
+                            <span>Head of Logistics</span>
+                            <br>
+                            <br>
+                            <span>Transport Department</span>
+                            <br>
+                            <br>
+                            <span>sandra@hrpage.com</span>
+                            <br>
+                            <span>$30000</span>
+                            
+                        </div>
+
+                    </span>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="employee-card" id="employee1">
+                    <img src="img/ceo.jpg" alt="" class="user-img" alt="">
+                    <span>
+
+                        <div class="employment-details" id="employee1-details">
+                            <span class="name-format">Tim</span>
+                            <span class="name-format">Cook</span>
+                            <br>
+                            <span>CEO</span>
+                            <br>
+                            <br>
+                            <span>CEO</span>
+                            <br>
+                            <br>
+                            <span>tim@hrpage.com</span>
+                            <br>
+                            <span>$3000000</span>
+                            
+                        </div>
+                    </span>
+                </div>
+            </li>
+
+        </div>
+    </div>
+
+    <div class="interviews">
+        <h2>Upcoming interviews</h2>
+
+        <li>
+            <div class="list-item">
+                <h3>Marketing</h3>
+                <p>Social Media Content Specialist</p>
+                <button class="accpet-btn" type="button" name="button">Accept</buttom>
+                <button class="reject-btn" type="button" name="button">Reject</buttom>
+            </div>
+        </li>
+
+        <li>
+            <div class="list-item">
+                <h3>Driver</h3>
+                <p>Advance Coach Driver</p>
+                <button class="accpet-btn" type="button" name="button">Accept</buttom>
+                <button class="reject-btn" type="button" name="button">Reject</buttom>
+            </div>
+        </li>
+
+        <li>
+            <div class="list-item">
+                <h3>Software Developer</h3>
+                <p>Full-stack Developr</p>
+                <button class="accpet-btn" type="button" name="button">Accept</buttom>
+                <button class="reject-btn" type="button" name="button">Reject</buttom>
+            </div>
+        </li>
+
+    </div>
+
+    <div id="employee-modal" class="modal">
+        <div class="modal-content">
+            <header class="modal-header">
+                <div class="modal-header-content">
+                    <span>Add Employee</span>
+                </div>
+            </header>
+
+            <div class="modal-container">
+                <label for="fname">First Name</label>
+                <input type="text" id="name">
+                <br>
+                <label for="fname">Last Name</label>
+                <input type="text" id="surname">
+                <br>
+                <label for="fname">Position</label>
+                <input type="text" id="position">
+                <br>
+                <label for="fname">Department</label>
+                <input type="text" id="department">
+                <br>
+                <label for="fname">Email</label>
+                <input type="text" id="email">
+                <br>
+                <label for="fname">Salary</label>
+                <input type="text" id="salary">
+                <br>
+
+                <button id="confirm-btn" type="button" name="button" onclick="addEmployee()">Confirm</button>
+
+            </div>
+            <footer class="modal-footer">
+
+            </footer>
+        </div>
+    </div>
+
+
+    <!-- MODAL  -->
+
+    <div id="interviewModal" class="modal">
+        <div class="modal-content">
+            <header class="modal-header">
+                <div class="modal-header-content">
+                    <span>Add Interview</span>
+                </div>
+            </header>
+
+            <div class="modal-container">
+                <label for="fname">Department</label>
+                <input type="text" id="int-department">
+                <br>
+                <label for="fname">Position</label>
+                <input type="text" id="int-position">
+                <br>
+
+                <button id="confirm-btn" type="button" name="button" onclick="addInterview()">Confirm</button>
+            </div>
+
+            <footer class="modal-footer">
+
+            </footer>
+        </div>
+    </div>
+
+    <!-- //////////////////////////////////////////// -->
+
+    <button class="btn" type="button" name="button" onclick="showAddIntModal()">Add Interview</button>
+    <button class="btn" type="button" name="button" onclick="showAddEmpModal()">Add Employee</button>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

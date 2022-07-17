@@ -1,0 +1,14 @@
+body {
+    margin: auto;
+}
+
+.nav-wrappter {
+    background-color: #fff;
+    padding: 5px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    z-index: 1; 
+}
+
