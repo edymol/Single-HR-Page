@@ -46,13 +46,13 @@ function addEmployee()
 
 function showAddEmpModal()
 {
-    addEmployeeModal.style.display = "block"
+    addEmployeeModal.style.display = "block";
 }
 
 function addInterview()
 {
-    var departmentInterview = document.querySelector("#int-department");
-    var positionInterview = document.querySelector("#int-position");
+    var departmentInterview = document.querySelector("#int-department").value;
+    var positionInterview = document.querySelector("#int-position").value;
     var newInterview = `
     <li>
     <div class="list-item">
@@ -70,5 +70,6 @@ addInterviewModal.style.display = "none";
 
 function showAddIntModal()
 {
-    addInterviewModal.style.display = "block"
+    addInterviewModal.style.display = "block";
 }
+ 
